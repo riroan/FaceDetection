@@ -1,3 +1,4 @@
+#video version
 import numpy as np
 import cv2
 
@@ -9,7 +10,7 @@ def faceDetect():
     info = ''
     
     try:
-        cap = cv2.VideoCapture('images/video.gif')
+        cap = cv2.VideoCapture('images/video.gif')  # your file path
     except:
         print('카메라 로딩 실패')
         return
